@@ -33,7 +33,18 @@
 @@||tailscale.com^
 @@||minvoice.com.vn^
 @@||fastca.vn^
-@@||mediafire.com^
+==========================================
+# Cho phép tên miền chính và tên miền phụ của MediaFire
+@@||mediafire.com^$important
+@@||*.mediafire.com^$important
+
+# Cho phép mạng lưới phân phối nội dung và máy chủ tải về (Download Server)
+@@||static.mediafire.com^$important
+@@||download*.mediafire.com^$important
+
+# Cho phép các script quảng cáo liên kết bắt buộc để kích hoạt nút Download của MediaFire
+@@||://mediafire.com^$important
+@@||://mediafire.com*^$important
 #==========================================
 *TMMH_*
 @@||tags.tiqcdn.com
